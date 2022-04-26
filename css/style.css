@@ -11,6 +11,6 @@ body {
 
 .border {
     box-sizing: border-box;
-    border: 2px red solid;
+    border: 1px black solid;
     flex-grow: 1;
 }
