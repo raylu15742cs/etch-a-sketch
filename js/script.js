@@ -11,8 +11,10 @@ let createbox = function(height) {
             minibox = document.createElement('div');
             minibox.classList.add(i);
             minibox.classList.add('border');
+            minibox.style.height = heights;
+            minibox.style.width = heights;
             box.appendChild(minibox)
         }
     }
 }
-createbox(3);
+createbox(4);

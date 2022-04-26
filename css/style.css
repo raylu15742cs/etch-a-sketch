@@ -2,8 +2,7 @@
     display: flex;
     height: 700px;
     width: 700px;
-    background-color: blue; 
-    flex-shrink: 0;
+    background-color: blue;
 }
 body {
     display: flex;
@@ -13,4 +12,5 @@ body {
 .border {
     box-sizing: border-box;
     border: 2px red solid;
+    flex-grow: 1;
 }
